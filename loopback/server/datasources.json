@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgresql": {
+    "host": "/var/run/postgresql/",
+    "port": "5432",
+    "database": "postgres",
+    "username": "postgres",
+    "password": "root",
+    "name": "postgresql",
+    "debug": true,
+    "connector": "postgresql"
+  }
+}
